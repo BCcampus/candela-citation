@@ -31,15 +31,15 @@ if ( ! defined( 'CANDELA_CITATION_FIELD' ) ) {
 	define( 'CANDELA_CITATION_FIELD', '_candela_citation' );
 }
 
-if( ! defined( 'CANDELA_CITATION_DB_VERSION') ) {
+if ( ! defined( 'CANDELA_CITATION_DB_VERSION' ) ) {
 	define( 'CANDELA_CITATION_DB_VERSION', '1.0' );
 }
 
-if( ! defined( 'CANDELA_CITATION_SEPARATOR') ) {
+if ( ! defined( 'CANDELA_CITATION_SEPARATOR' ) ) {
 	define( 'CANDELA_CITATION_SEPARATOR', '. ' );
 }
 
-if ( ! defined( 'CANDELA_CITATION_DB_OPTION')) {
+if ( ! defined( 'CANDELA_CITATION_DB_OPTION' ) ) {
 	define( 'CANDELA_CITATION_DB_OPTION', 'candela_citation_db_version' );
 }
 

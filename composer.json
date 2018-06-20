@@ -19,7 +19,7 @@
     "humanmade/coding-standards": "^0.2.2"
   },
   "require": {
-    "php": ">=5.6.0",
+    "php": ">=7",
     "composer/installers": "~1.0"
   },
   "scripts": {
@@ -27,7 +27,7 @@
       "@standards"
     ],
     "standards": [
-      "vendor/bin/phpcs --standard=phpcs.ruleset.xml *.php ."
+      "vendor/bin/phpcs --standard=phpcs.ruleset.xml *.php inc/"
     ]
   }
 }

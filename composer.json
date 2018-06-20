@@ -15,12 +15,17 @@
     "issues": "https://github.com/lumenlearning/candela-citation/issues/",
     "source": "https://github.com/lumenlearning/candela-citation/"
   },
-  "require-dev": {
-    "humanmade/coding-standards": "^0.2.2"
+  "config": {
+    "platform": {
+      "php": "7.0.30"
+    }
   },
   "require": {
-    "php": ">=7",
+    "php": ">=7.0",
     "composer/installers": "~1.0"
+  },
+  "require-dev": {
+    "humanmade/coding-standards": "^0.2.2"
   },
   "scripts": {
     "test": [
